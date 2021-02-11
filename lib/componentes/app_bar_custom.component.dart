@@ -14,8 +14,9 @@ AppBar appBarCustom(BuildContext context) {
         ),
         children: [
           TextSpan(
-              text: "Jow",
-              style: TextStyle(color: Theme.of(context).primaryColor)),
+            text: "Jow",
+            style: TextStyle(color: Theme.of(context).primaryColor),
+          ),
           TextSpan(text: "Lanchão", style: TextStyle(color: Colors.black)),
         ],
       ),
